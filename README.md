@@ -8,3 +8,4 @@ Repository for the dot net testing course
 
 ## 👨‍💻 Students 👨‍💻
 * [**Luis Luzuriaga**](https://github.com/B1ON1C)
+* [**Alba Orbegozo**](https://github.com/albaorbegozo)
