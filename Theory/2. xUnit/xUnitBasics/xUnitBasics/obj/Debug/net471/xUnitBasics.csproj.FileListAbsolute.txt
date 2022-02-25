@@ -1,0 +1,40 @@
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.abstractions.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.runner.visualstudio.testadapter.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.runner.reporters.net452.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.runner.utility.net452.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\all_data.json
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xUnitBasics.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xUnitBasics.pdb
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\Newtonsoft.Json.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.assert.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.core.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.execution.desktop.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.AssemblyInfoInputs.cache
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.AssemblyInfo.cs
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.csproj.CoreCompileInputs.cache
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.csproj.CopyComplete
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.dll
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.pdb
+C:\Gabriel\Formación\Teoría\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.csproj.AssemblyReference.cache
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.runner.visualstudio.testadapter.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.runner.reporters.net452.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.runner.utility.net452.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.abstractions.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\all_data.json
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xUnitBasics.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xUnitBasics.pdb
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\Newtonsoft.Json.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.assert.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.core.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\bin\Debug\net471\xunit.execution.desktop.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.csproj.AssemblyReference.cache
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.AssemblyInfoInputs.cache
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.AssemblyInfo.cs
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.csproj.CoreCompileInputs.cache
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.csproj.CopyComplete
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.dll
+C:\Gabriel\Formación\Publicada\2. xUnit\xUnitBasics\xUnitBasics\obj\Debug\net471\xUnitBasics.pdb
