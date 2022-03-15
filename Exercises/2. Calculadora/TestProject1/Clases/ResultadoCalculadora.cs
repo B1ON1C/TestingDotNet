@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestProject1.Clases
 {
     public interface IOperando
     {
-        
     }
-    public class Entero:IOperando
+
+    public class Entero : IOperando
     {
         public int Valor { get; set; }
+
         public override bool Equals(object obj)
         {
             if (obj == null) return true;
@@ -25,8 +22,8 @@ namespace TestProject1.Clases
             {
                 throw new Exception();
             }
-            
         }
+
         public override int GetHashCode()
         {
             return base.GetHashCode();
@@ -36,6 +33,7 @@ namespace TestProject1.Clases
     public class Decimal : IOperando
     {
         public decimal Valor { get; set; }
+
         public override bool Equals(object obj)
         {
             if (obj == null) return true;
@@ -48,8 +46,8 @@ namespace TestProject1.Clases
             {
                 throw new Exception();
             }
-
         }
+
         public override int GetHashCode()
         {
             return base.GetHashCode();
@@ -60,6 +58,7 @@ namespace TestProject1.Clases
     {
         public decimal Real { get; set; }
         public decimal Imag { get; set; }
+
         public override bool Equals(object obj)
         {
             if (obj == null) return true;
@@ -72,8 +71,8 @@ namespace TestProject1.Clases
             {
                 throw new Exception();
             }
-
         }
+
         public override int GetHashCode()
         {
             return base.GetHashCode();
@@ -83,13 +82,15 @@ namespace TestProject1.Clases
     public enum EnumStatus
     {
         OK = 0,
-        DIVISIONPORCERO =1,
-        DESBORDAMIENTO=2
+        DIVISIONPORCERO = 1,
+        DESBORDAMIENTO = 2
     }
-    public class ResultadoCalculadora<T> where T:IOperando
+
+    public class ResultadoCalculadora<T> where T : IOperando
     {
         public EnumStatus status { get; set; }
         public T Resultado { get; set; }
+
         public override bool Equals(object obj)
         {
             if (obj == null) return true;
@@ -104,10 +105,10 @@ namespace TestProject1.Clases
                 throw new Exception();
             }
         }
+
         public override int GetHashCode()
         {
             return base.GetHashCode();
         }
-
     }
 }

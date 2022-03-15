@@ -1,10 +1,5 @@
 ﻿using Moq;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TestProject1.Interfaces;
 
 namespace TestProject1
@@ -12,6 +7,7 @@ namespace TestProject1
     public class Ejemplo3Test
     {
         private Mock<IEjemplo3> _ejemplo3;
+
         [SetUp]
         public void Setup()
         {
@@ -27,16 +23,17 @@ namespace TestProject1
         {
             Assert.AreEqual(2, _ejemplo3.Object.BuscarPosicion(-10000, new int[] { 0, -10000, 10000 }));
         }
+
         [Test]
         public void BuscarPosicionNoEncontradoCorrecto()
         {
             Assert.AreEqual(-1, _ejemplo3.Object.BuscarPosicion(-20000, new int[] { 0, -10000, 10000 }));
         }
+
         [Test]
         public void ErrorSiVacio()
         {
-            Assert.AreEqual(-2, _ejemplo3.Object.BuscarPosicion(-20000, new int[] {  }));
+            Assert.AreEqual(-2, _ejemplo3.Object.BuscarPosicion(-20000, new int[] { }));
         }
-
     }
 }

@@ -1,6 +1,5 @@
 ﻿using Moq;
 using NUnit.Framework;
-using System;
 using TestProject1.Clases;
 using TestProject1.Interfaces;
 
@@ -9,11 +8,13 @@ namespace TestProject1
     public class CalculadoraTest
     {
         private Mock<ICalculadora> _calc;
+
         [SetUp]
         public void Setup()
         {
             _calc = new Mock<ICalculadora>(MockBehavior.Strict);
         }
+
         [Test]
         public void SumaPositivoNegativo()
         {
@@ -32,8 +33,8 @@ namespace TestProject1
         {
             var operando1 = new Entero { Valor = int.MaxValue };
             var operando2 = new Entero { Valor = 1 };
-       
-            var result = new ResultadoCalculadora<IOperando> { Resultado=new Entero { Valor=0}, status = EnumStatus.DESBORDAMIENTO };
+
+            var result = new ResultadoCalculadora<IOperando> { Resultado = new Entero { Valor = 0 }, status = EnumStatus.DESBORDAMIENTO };
             var result2 = new ResultadoCalculadora<IOperando> { Resultado = new Entero { Valor = 0 }, status = EnumStatus.DESBORDAMIENTO };
             // _calc.Setup(x => x.Suma(operando1, operando2)).Throws(new OverflowException());
             _calc.Setup(x => x.Suma(operando1, operando2)).Returns(result);

@@ -7,6 +7,7 @@ namespace TestProject1
     public class Ejemplo1Test
     {
         private Mock<IEjemplo1> _ejemplo1;
+
         [SetUp]
         public void Setup()
         {
@@ -30,21 +31,25 @@ namespace TestProject1
         {
             Assert.AreEqual("error", _ejemplo1.Object.InvertirNumero("a"));
         }
+
         [Test]
         public void ErrorSiVacio()
         {
             Assert.AreEqual("error", _ejemplo1.Object.InvertirNumero(""));
         }
+
         [Test]
         public void ErrorSiNoEntero()
         {
             Assert.AreEqual("error", _ejemplo1.Object.InvertirNumero("4.5"));
         }
+
         [Test]
         public void ErrorSiNoPOsitivo()
         {
             Assert.AreEqual("error", _ejemplo1.Object.InvertirNumero("-7"));
         }
+
         [Test]
         public void ErrorSiVariosNumeros()
         {
