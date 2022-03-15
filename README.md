@@ -1,4 +1,4 @@
-# 🔥 Dot Net Testing Couse 🔥
+# 🔥 Dot Net Testing Course 🔥
 Repository for the dot net testing course
 
 ## ⚙️ Requirements ⚙️
