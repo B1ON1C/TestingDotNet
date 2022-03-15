@@ -65,7 +65,7 @@ namespace TestProject1.Clases
             Imaginario other = obj as Imaginario;
             if (other != null)
             {
-                return Real == other.Real && Imag == other.Imag
+                return Real == other.Real && Imag == other.Imag;
             }
             else
             {

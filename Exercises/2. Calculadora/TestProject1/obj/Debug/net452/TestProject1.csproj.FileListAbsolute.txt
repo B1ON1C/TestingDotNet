@@ -21,3 +21,26 @@ C:\Proyectos\testing\TestProject1\TestProject1\bin\Debug\net452\Castle.Core.dll
 C:\Proyectos\testing\TestProject1\TestProject1\bin\Debug\net452\Moq.dll
 C:\Proyectos\testing\TestProject1\TestProject1\bin\Debug\net452\System.Runtime.CompilerServices.Unsafe.dll
 C:\Proyectos\testing\TestProject1\TestProject1\bin\Debug\net452\System.Threading.Tasks.Extensions.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.csproj.AssemblyReference.cache
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.AssemblyInfoInputs.cache
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.AssemblyInfo.cs
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.csproj.CoreCompileInputs.cache
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.pdb
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\Mono.Cecil.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\Mono.Cecil.Mdb.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\Mono.Cecil.Pdb.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\Mono.Cecil.Rocks.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\nunit.core.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\nunit.core.interfaces.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\nunit.util.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\TestProject1.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\TestProject1.pdb
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\Castle.Core.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\Moq.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\nunit.framework.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\bin\Debug\net452\System.Threading.Tasks.Extensions.dll
+C:\Users\D799290\Desktop\Proyectos\TestingDotNet\Exercises\2. Calculadora\TestProject1\obj\Debug\net452\TestProject1.csproj.CopyComplete
