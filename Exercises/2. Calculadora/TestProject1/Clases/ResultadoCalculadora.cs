@@ -83,7 +83,8 @@ namespace TestProject1.Clases
     {
         OK = 0,
         DIVISIONPORCERO = 1,
-        DESBORDAMIENTO = 2
+        DESBORDAMIENTO = 2,
+        ERROR = 3
     }
 
     public class ResultadoCalculadora<T> where T : IOperando

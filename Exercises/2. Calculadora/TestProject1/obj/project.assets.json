@@ -219,23 +219,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\D799290\\.nuget\\packages\\": {},
+    "C:\\Users\\D432319\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\D799290\\Desktop\\Proyectos\\TestingDotNet\\Exercises\\2. Calculadora\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Proyectos VS\\TestingDotNet\\Exercises\\2. Calculadora\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\D799290\\Desktop\\Proyectos\\TestingDotNet\\Exercises\\2. Calculadora\\TestProject1\\TestProject1.csproj",
-      "packagesPath": "C:\\Users\\D799290\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\D799290\\Desktop\\Proyectos\\TestingDotNet\\Exercises\\2. Calculadora\\TestProject1\\obj\\",
+      "projectPath": "C:\\Proyectos VS\\TestingDotNet\\Exercises\\2. Calculadora\\TestProject1\\TestProject1.csproj",
+      "packagesPath": "C:\\Users\\D432319\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos VS\\TestingDotNet\\Exercises\\2. Calculadora\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\D799290\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\D432319\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -244,8 +244,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://gesintegracion.admon-cfnavarra.es/nexus/repository/nuget-group/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://gesintegracion.admon-cfnavarra.es/nexus/repository/nuget-group/": {}
       },
       "frameworks": {
         "net452": {
@@ -276,7 +275,7 @@
             "version": "[2.3.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

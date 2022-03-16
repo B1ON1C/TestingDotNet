@@ -205,22 +205,151 @@ namespace TestProject1
             Assert.AreEqual(result2, _calc.Object.Divide(operando1, operando2));
         }
 
+        [Test]
+        [Category("RaizCuadrada")]
+        public void RaizPositivo()
+        {
+            var operando1 = new Entero { Valor = 4 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = 2 } };
 
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = 2 } };
+            _calc.Setup(x => x.Raiz(operando1)).Returns(result);
 
-        // TODO: RaizCuadradaPositivo
-        // TODO: RaizCuadradaNegativo
-        // TODO: RaizCuadradaDecimales
+            Assert.AreEqual(result2, _calc.Object.Raiz(operando1));
+        }
 
+        [Test]
+        [Category("RaizCuadrada")]
+        public void RaizNegativo()
+        {
+            var operando1 = new Entero { Valor = -4 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.ERROR, Resultado = new Entero { Valor = 0 } };
 
-        // TODO: CuadradoPositivo
-        // TODO: CuadradoNegativo
-        // TODO: CuadradoOverflow
-        // TODO: CuadradoDecimales
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.ERROR, Resultado = new Entero { Valor = 0 } };
+            _calc.Setup(x => x.Raiz(operando1)).Returns(result);
 
+            Assert.AreEqual(result2, _calc.Object.Raiz(operando1));
+        }
 
-        // TODO: PotenciaPositivoNegativo
-        // TODO: PotenciaNegativoPositivo
-        // TODO: PotenciaOverflow
-        // TODO: PotenciaDecimales
+        [Test]
+        [Category("RaizCuadrada")]
+        public void RaizDecimal()
+        {
+            var operando1 = new Clases.Decimal { Valor = 30.25M };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 5.5M } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 5.5M } };
+            _calc.Setup(x => x.Raiz(operando1)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Raiz(operando1));
+        }
+
+        [Test]
+        [Category("Cuadrado")]
+        public void CuadradoPositivo()
+        {
+            var operando1 = new Entero { Valor = 2 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = 4 } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = 4 } };
+            _calc.Setup(x => x.Cuadrado(operando1)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Cuadrado(operando1));
+        }
+
+        [Test]
+        [Category("Cuadrado")]
+        public void CuadradoNegativo()
+        {
+            var operando1 = new Entero { Valor = -5 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = 10 } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = 10 } };
+            _calc.Setup(x => x.Cuadrado(operando1)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Cuadrado(operando1));
+        }
+
+        [Test]
+        [Category("Cuadrado")]
+        public void CuadradoOverflow()
+        {
+            var operando1 = new Entero { Valor = int.MaxValue };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.DESBORDAMIENTO, Resultado = new Entero { Valor = 0 } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.DESBORDAMIENTO, Resultado = new Entero { Valor = 0 } };
+            _calc.Setup(x => x.Cuadrado(operando1)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Cuadrado(operando1));
+        }
+
+        [Test]
+        [Category("Cuadrado")]
+        public void CuadradoDecimales()
+        {
+            var operando1 = new Clases.Decimal { Valor = 8.2M };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 67.24M } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 67.24M } };
+            _calc.Setup(x => x.Cuadrado(operando1)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Cuadrado(operando1));
+        }
+
+        [Test]
+        [Category("Potencia")]
+        public void PotenciaPositivoNegativo()
+        {
+            var operando1 = new Entero { Valor = 6 };
+            var operando2 = new Entero { Valor = -2 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 0.02777777777M } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 0.02777777777M } };
+            _calc.Setup(x => x.Potencia(operando1, operando2)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Potencia(operando1, operando2));
+        }
+
+        [Test]
+        [Category("Potencia")]
+        public void PotenciaNegativoPositivo()
+        {
+            var operando1 = new Entero { Valor = -10 };
+            var operando2 = new Entero { Valor = 2 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = -100 } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Entero { Valor = -100 } };
+            _calc.Setup(x => x.Potencia(operando1, operando2)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Potencia(operando1, operando2));
+        }
+
+        [Test]
+        [Category("Potencia")]
+        public void PotenciaOverflow()
+        {
+            var operando1 = new Entero { Valor = int.MaxValue };
+            var operando2 = new Entero { Valor = 2 };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.DESBORDAMIENTO, Resultado = new Clases.Decimal { Valor = 0 } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.DESBORDAMIENTO, Resultado = new Clases.Decimal { Valor = 0 } };
+            _calc.Setup(x => x.Potencia(operando1, operando2)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Potencia(operando1, operando2));
+        }
+
+        [Test]
+        [Category("Potencia")]
+        public void PotenciaDecimales()
+        {
+            var operando1 = new Clases.Decimal { Valor = 2.2M };
+            var operando2 = new Clases.Decimal { Valor = 3.4M };
+            var result = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 14.5961095677M } };
+
+            var result2 = new ResultadoCalculadora<IOperando> { status = EnumStatus.OK, Resultado = new Clases.Decimal { Valor = 14.5961095677M } };
+            _calc.Setup(x => x.Potencia(operando1, operando2)).Returns(result);
+
+            Assert.AreEqual(result2, _calc.Object.Potencia(operando1, operando2));
+        }
     }
 }
