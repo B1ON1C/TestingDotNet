@@ -1,0 +1,4 @@
+Ejercicios tema 2:
+1. Realizar los test unitarios correspondientes a los enunciados del ejercicio de Caja Negra
+2. Realizar los test unitarios para un proyecto de calculadora científica
+3. Realiza test unitarios al proyecto SSID.Arquitectura
